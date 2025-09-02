@@ -1,7 +1,9 @@
-# Vaccine Dropout Prediction
+# Vax Track AI - Vaccine Dropout Prediction
 
 This project develops a machine learning model to predict vaccine dropout risk (DTP1–DTP3) across African countries using immunization and demographic data.  
 It also includes an interactive **Streamlit app** for real-time predictions.
+
+Live Deployment: [Streamlit App](https://vax-track-ai.streamlit.app/)
 
 ---
 
