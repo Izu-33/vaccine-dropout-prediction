@@ -63,7 +63,7 @@ st.write("")
 
 st.subheader("🔢 Model Evaluation Metrics")
 st.markdown("""
-        - VaxTrackAI was built by training a Logistic Regression model on [population](https://idataportal.afro.who.int/dataset/population/resource/28a1db7b-2c8f-4433-bef2-e902d5a9cf09?view_id=5e08af5b-41c2-478b-b9b6-54d9525d7b94) and [vaccination coverage](https://idataportal.afro.who.int/dataset/ri_coverage_all_antigens/resource/7c5b7d34-b285-4bb8-ad66-ac23c8b23689?view_id=a28630bf-7e25-4da5-b424-eaa377128718) data from WHO African Region Data Portal.
-        - The model achieved accuracy of **98%** and an AUC score of **96%**.
-        - The features DTP3 and DTP1 are the most influential features for the model's predictions. PCV1 is the next most important, followed by MCV3, MCV1, BCG, and Population.
+        - VaxTrackAI was built by training a Extreme Gradient Boost (XGBoost) model on [population](https://idataportal.afro.who.int/dataset/population/resource/28a1db7b-2c8f-4433-bef2-e902d5a9cf09?view_id=5e08af5b-41c2-478b-b9b6-54d9525d7b94) and [vaccination coverage](https://idataportal.afro.who.int/dataset/ri_coverage_all_antigens/resource/7c5b7d34-b285-4bb8-ad66-ac23c8b23689?view_id=a28630bf-7e25-4da5-b424-eaa377128718) data from WHO African Region Data Portal.
+        - The model achieved accuracy of **95%** and an AUC score of **98%**.
+        - Features such as MCV3 and BCG are the most influential features for the model's predictions. PCV1 is the next most important, followed by MCV3, MCV1, BCG, and Population.
 """)
